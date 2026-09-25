@@ -7,17 +7,36 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $tasks = Task::orderBy('status')
+        $query = Task::query();
+
+        if ($request->filled('search')) {
+            $query->where(function ($q) use ($request) {
+                $q->where('task_name', 'like', '%' . $request->search . '%')
+                  ->orWhere('description', 'like', '%' . $request->search . '%');
+            });
+        }
+
+        if ($request->filled('status')) {
+            $query->where('status', $request->status);
+        }
+
+        $tasks = $query
+            ->orderBy('status')
             ->orderBy('due_date')
             ->get();
 
         $pendingCount = $tasks->where('status', 'Pending')->count();
         $completedCount = $tasks->where('status', 'Completed')->count();
 
-        return view('tasks.index', compact('tasks', 'pendingCount', 'completedCount'));
+        return view('tasks.index', compact(
+            'tasks',
+            'pendingCount',
+            'completedCount'
+        ));
     }
+
 
     public function create()
     {

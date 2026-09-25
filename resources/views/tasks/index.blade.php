@@ -13,6 +13,58 @@
 </div>
 
 <div class="stats">
+    <form action="{{ route('tasks.index') }}" method="GET" style="margin-bottom: 20px;">
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+        <input
+            type="text"
+            name="search"
+            value="{{ request('search') }}"
+            placeholder="Search tasks..."
+            style="
+                flex: 1;
+                min-width: 220px;
+                padding: 12px;
+                border: 1px solid #d1d5db;
+                border-radius: 8px;
+                font-size: 14px;
+            "
+        >
+
+        <select
+            name="status"
+            style="
+                padding: 12px;
+                border: 1px solid #d1d5db;
+                border-radius: 8px;
+                font-size: 14px;
+            "
+        >
+            <option value="">All Status</option>
+
+            <option value="Pending"
+                {{ request('status') == 'Pending' ? 'selected' : '' }}>
+                Pending
+            </option>
+
+            <option value="Completed"
+                {{ request('status') == 'Completed' ? 'selected' : '' }}>
+                Completed
+            </option>
+        </select>
+
+        <button type="submit" class="btn btn-primary">
+            Search
+        </button>
+
+        <a href="{{ route('tasks.index') }}"
+           class="btn btn-secondary">
+            Reset
+        </a>
+
+    </div>
+</form>
+
     <div class="stat">
         <div class="stat-label">Total Tasks</div>
         <div class="stat-value">{{ $tasks->count() }}</div>
