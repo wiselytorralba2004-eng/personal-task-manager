@@ -1,0 +1,19 @@
+PERSONAL TASK MANAGER - FIRST SETUP
+===================================
+
+1. Make sure PHP 8.2+ and Composer are installed.
+2. Open a terminal inside this project folder.
+3. Run: composer install
+4. Create .env:
+   Windows CMD: copy .env.example .env
+   PowerShell:   Copy-Item .env.example .env
+5. Run: php artisan key:generate
+6. In phpMyAdmin/MySQL, create database: personal_task_manager
+7. Check DB settings in .env.
+8. Run: php artisan migrate
+9. Run: php artisan serve
+10. Open: http://127.0.0.1:8000
+
+Before GitHub submission, edit README.md and replace:
+- YOUR NAME HERE
+- YOUR COURSE AND YEAR HERE
