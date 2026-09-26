@@ -43,6 +43,10 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
      - <img width="1130" height="914" alt="image" src="https://github.com/user-attachments/assets/e4c8777b-80a4-453d-969d-5d533375f88b" />
 
 
+
+
+
+
 - Pending and Completed task status
 - Due Date
 - Task Description
