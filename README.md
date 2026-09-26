@@ -1,10 +1,10 @@
+#My Task
 
+Laravel Mini Project: Personal Task Manager
 
 **Project Code:** WST21-PM-2026-SF
-
 **Student Name:** Wisely D. Torralba
-
-**Course & Year:** BSIT 2
+**Course & Year:** BSIT - 2nd Year
 **Database Used:** MySQL
 
 ## Project Description
@@ -26,6 +26,10 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
      
      * The Edit Task page allows the user to update an existing task.
      <img width="583" height="520" alt="image" src="https://github.com/user-attachments/assets/7917f5a4-54f5-42db-9df1-04be4c647538" />
+
+     * The Status Filter lets the user display tasks based on their current status.
+     - <img width="857" height="792" alt="image" src="https://github.com/user-attachments/assets/fe5789c1-a372-401e-a884-5e0001c8c8f9" />
+
 
 
 
