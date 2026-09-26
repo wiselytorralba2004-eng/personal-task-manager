@@ -2,6 +2,8 @@
 
 Laravel Mini Project: Personal Task Manager
 
+A simple Personal Task Manager built using Laravel. The system allows users to create, view, edit, delete, and update the status of tasks.
+
 **Project Code:** WST21-PM-2026-SF
 
 **Student Name:** Wisely D. Torralba
@@ -9,10 +11,6 @@ Laravel Mini Project: Personal Task Manager
 **Course & Year:** BSIT - 2nd Year
 
 **Database Used:** MySQL
-
-## Project Description
-
-A simple Personal Task Manager built using Laravel. The system allows users to create, view, edit, delete, and update the status of tasks.
 
 ## Features
 
