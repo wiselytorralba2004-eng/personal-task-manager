@@ -3,8 +3,11 @@
 Laravel Mini Project: Personal Task Manager
 
 **Project Code:** WST21-PM-2026-SF
+
 **Student Name:** Wisely D. Torralba
+
 **Course & Year:** BSIT - 2nd Year
+
 **Database Used:** MySQL
 
 ## Project Description
