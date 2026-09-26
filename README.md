@@ -19,7 +19,7 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
 - Edit Task
 - Delete Task
 - Update Status
-- - Pending and Completed task status
+- Pending and Completed task status
 - Due Date
 - Task Description
 
