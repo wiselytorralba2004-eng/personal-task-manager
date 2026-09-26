@@ -19,6 +19,32 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
 - Edit Task
 - Delete Task
 - Update Status
+- - Pending and Completed task status
+- Due Date
+- Task Description
+
+## Technologies Used
+
+- Laravel
+- PHP
+- MySQL
+- Blade
+- HTML
+- CSS
+
+## Laravel Structure
+
+The project follows:
+
+Routes → Controller → Model → Database → Blade
+
+## CRUD
+
+- **Create** – Add Task
+- **Read** – View Tasks
+- **Update** – Edit Task / Update Status
+- **Delete** – Delete Task
+
      * Additional Features"
                       
      * Search bar :Lets users quickly find a specific task by typing a keyword.
@@ -45,31 +71,3 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
 
 
 
-
-
-
-- Pending and Completed task status
-- Due Date
-- Task Description
-
-## Technologies Used
-
-- Laravel
-- PHP
-- MySQL
-- Blade
-- HTML
-- CSS
-
-## Laravel Structure
-
-The project follows:
-
-Routes → Controller → Model → Database → Blade
-
-## CRUD
-
-- **Create** – Add Task
-- **Read** – View Tasks
-- **Update** – Edit Task / Update Status
-- **Delete** – Delete Task
