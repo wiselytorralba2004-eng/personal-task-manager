@@ -1,4 +1,4 @@
-<img width="1006" height="677" alt="Screenshot 2026-09-26 125136" src="https://github.com/user-attachments/assets/562ffbea-b960-4135-94f1-c36f0d682e59" /># Personal Task Manager
+
 
 **Project Code:** WST21-PM-2026-SF
 
@@ -19,10 +19,17 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
 - Delete Task
 - Update Status
      * Additional Features"
- 
-     * Search bar :<img width="1006" height="677" alt="Screenshot 2026-09-26 125136" src="https://github.com/user-attachments/assets/eaf292af-8ab7-4649-81f2-ad6e17df762f" />
+                      
+     * Search bar :Lets users quickly find a specific task by typing a keyword.
+     - <img width="863" height="887" alt="image" src="https://github.com/user-attachments/assets/2815583a-456d-4bc8-ae41-a63c2da774fc" />
+
+     
+     * The Edit Task page allows the user to update an existing task.
+     <img width="583" height="520" alt="image" src="https://github.com/user-attachments/assets/7917f5a4-54f5-42db-9df1-04be4c647538" />
 
 
+
+      
 
 - Pending and Completed task status
 - Due Date
