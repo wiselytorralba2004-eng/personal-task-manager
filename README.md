@@ -21,19 +21,17 @@ A simple Personal Task Manager built using Laravel. The system allows users to c
      * Additional Features"
                       
      * Search bar :Lets users quickly find a specific task by typing a keyword.
-     - <img width="863" height="887" alt="image" src="https://github.com/user-attachments/assets/2815583a-456d-4bc8-ae41-a63c2da774fc" />
+     - <img width="1106" height="929" alt="image" src="https://github.com/user-attachments/assets/aa94ad52-e52e-494f-9334-2dd96808447f" />
+
 
      
      * The Edit Task page allows the user to update an existing task.
-     - <img width="583" height="520" alt="image" src="https://github.com/user-attachments/assets/7917f5a4-54f5-42db-9df1-04be4c647538" />
+     - <img width="977" height="793" alt="image" src="https://github.com/user-attachments/assets/c7b323eb-a353-45c1-a05b-b7e855b93b17" />
+
 
      * The Status Filter lets the user display tasks based on their current status.
-     - <img width="857" height="792" alt="image" src="https://github.com/user-attachments/assets/fe5789c1-a372-401e-a884-5e0001c8c8f9" />
+     - <img width="1130" height="914" alt="image" src="https://github.com/user-attachments/assets/e4c8777b-80a4-453d-969d-5d533375f88b" />
 
-
-
-
-      
 
 - Pending and Completed task status
 - Due Date
