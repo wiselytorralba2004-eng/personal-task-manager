@@ -31,9 +31,9 @@ MySQL
 
 
 
-     * Additional Features"
+     - Additional Features"
                       
-     * Search bar :Lets users quickly find a specific task by typing a keyword.
+     - Search bar :Lets users quickly find a specific task by typing a keyword.
      - <img width="1106" height="929" alt="image" src="https://github.com/user-attachments/assets/aa94ad52-e52e-494f-9334-2dd96808447f" />
 
 
@@ -43,7 +43,7 @@ MySQL
 
 
      
-     * The Edit Task page allows the user to update an existing task.
+     - The Edit Task page allows the user to update an existing task.
      - <img width="977" height="793" alt="image" src="https://github.com/user-attachments/assets/c7b323eb-a353-45c1-a05b-b7e855b93b17" />
 
 
@@ -52,7 +52,7 @@ MySQL
 
 
 
-     * The Status Filter lets the user display tasks based on their current status.
+     - The Status Filter lets the user display tasks based on their current status.
      - <img width="1130" height="914" alt="image" src="https://github.com/user-attachments/assets/e4c8777b-80a4-453d-969d-5d533375f88b" />
 
 
