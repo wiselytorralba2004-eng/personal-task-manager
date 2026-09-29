@@ -51,5 +51,12 @@ MySQL
 - Add Task: It allows the user to create a new task by entering the task name, description, and due date.
 - <img width="1075" height="700" alt="image" src="https://github.com/user-attachments/assets/0bec929c-ec44-42c6-ad06-927556aeb44d" />
 
+Total Tasks – 3: shows the total number of tasks saved in the database.
+Pending – 1: shows how many tasks are not yet completed.
+Completed – 2: shows how many tasks have already been finished.
+
+<img width="703" height="206" alt="image" src="https://github.com/user-attachments/assets/4493c567-8a1a-40d8-89f7-d9ae34ced1b5" />
+<img width="388" height="148" alt="image" src="https://github.com/user-attachments/assets/7ff929c4-00a1-4338-9917-e1ade7eab9c8" />
+
 
 
