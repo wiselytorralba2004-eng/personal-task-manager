@@ -24,7 +24,7 @@ MySQL
 - Delete Task
 - Update Status
   
- Additional Features
+## Additional Features
 
    - Search bar :Lets users quickly find a specific task by typing a keyword.
    - <img width="1106" height="929" alt="image" src="https://github.com/user-attachments/assets/aa94ad52-e52e-494f-9334-2dd96808447f" />
