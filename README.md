@@ -48,5 +48,8 @@ MySQL
      - The Status Filter lets the user display tasks based on their current status.
      - <img width="1130" height="914" alt="image" src="https://github.com/user-attachments/assets/e4c8777b-80a4-453d-969d-5d533375f88b" />
 
+- Add Task: It allows the user to create a new task by entering the task name, description, and due date.
+- <img width="1075" height="700" alt="image" src="https://github.com/user-attachments/assets/0bec929c-ec44-42c6-ad06-927556aeb44d" />
+
 
 
